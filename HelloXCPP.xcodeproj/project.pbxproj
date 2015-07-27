@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B0E543131B65D04B0087383F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E543121B65D04B0087383F /* main.cpp */; };
+		B0E543351B65E1660087383F /* FunctionPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E5432C1B65E1660087383F /* FunctionPointer.cpp */; };
+		B0E543361B65E1660087383F /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E5432E1B65E1660087383F /* HelloWorld.cpp */; };
+		B0E543371B65E1660087383F /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E543301B65E1660087383F /* Recursion.cpp */; };
+		B0E543381B65E1660087383F /* ReturnBy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E543321B65E1660087383F /* ReturnBy.cpp */; };
+		B0E5433C1B6602C30087383F /* Advanced.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E5433B1B6602C30087383F /* Advanced.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,17 @@
 
 /* Begin PBXFileReference section */
 		B0E5430F1B65D04B0087383F /* HelloXCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloXCPP; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E543121B65D04B0087383F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0E543121B65D04B0087383F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
+		B0E5432A1B65E1660087383F /* Advanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advanced.h; sourceTree = "<group>"; };
+		B0E5432C1B65E1660087383F /* FunctionPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionPointer.cpp; sourceTree = "<group>"; };
+		B0E5432D1B65E1660087383F /* FunctionPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionPointer.h; sourceTree = "<group>"; };
+		B0E5432E1B65E1660087383F /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		B0E5432F1B65E1660087383F /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		B0E543301B65E1660087383F /* Recursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion.cpp; sourceTree = "<group>"; };
+		B0E543311B65E1660087383F /* Recursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recursion.h; sourceTree = "<group>"; };
+		B0E543321B65E1660087383F /* ReturnBy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReturnBy.cpp; sourceTree = "<group>"; };
+		B0E543331B65E1660087383F /* ReturnBy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnBy.h; sourceTree = "<group>"; };
+		B0E5433B1B6602C30087383F /* Advanced.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Advanced.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,17 @@
 		B0E543111B65D04B0087383F /* HelloXCPP */ = {
 			isa = PBXGroup;
 			children = (
+				B0E5432A1B65E1660087383F /* Advanced.h */,
+				B0E5432C1B65E1660087383F /* FunctionPointer.cpp */,
+				B0E5432D1B65E1660087383F /* FunctionPointer.h */,
+				B0E5432E1B65E1660087383F /* HelloWorld.cpp */,
+				B0E5432F1B65E1660087383F /* HelloWorld.h */,
+				B0E543301B65E1660087383F /* Recursion.cpp */,
+				B0E543311B65E1660087383F /* Recursion.h */,
+				B0E543321B65E1660087383F /* ReturnBy.cpp */,
+				B0E543331B65E1660087383F /* ReturnBy.h */,
 				B0E543121B65D04B0087383F /* main.cpp */,
+				B0E5433B1B6602C30087383F /* Advanced.cpp */,
 			);
 			path = HelloXCPP;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E543381B65E1660087383F /* ReturnBy.cpp in Sources */,
+				B0E543351B65E1660087383F /* FunctionPointer.cpp in Sources */,
 				B0E543131B65D04B0087383F /* main.cpp in Sources */,
+				B0E5433C1B6602C30087383F /* Advanced.cpp in Sources */,
+				B0E543371B65E1660087383F /* Recursion.cpp in Sources */,
+				B0E543361B65E1660087383F /* HelloWorld.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +265,7 @@
 				B0E543181B65D04B0087383F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
